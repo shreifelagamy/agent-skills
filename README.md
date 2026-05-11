@@ -9,16 +9,21 @@ Each skill is a self-contained folder with a `SKILL.md` file and optional `refer
 | Skill | Tags | Description |
 |---|---|---|
 | [laravel-service-modules](./skills/laravel-service-modules) | `laravel` `php` | Scaffolds, reviews, or refactors external API integrations in Laravel using the Service Module pattern (Repository + Interface + Provider + Facade + DTO + Exception) |
+| [meeting-notes-formatter](./skills/meeting-notes-formatter) | `productivity` `notes` | Turns raw meeting notes into a clean, structured summary with attendees, key decisions, action items, and next steps |
 
 ## Install
 
 Install any skill from this repo using the [skills.sh](https://skills.sh) CLI:
 
 ```bash
+# Install all skills
 npx skills add shreifelagamy/agent-skills
+
+# Install a specific skill
+npx skills add shreifelagamy/agent-skills --skill <skill-name>
 ```
 
-This registers every skill in the repo with your local agent (Claude Code, Cursor, etc.). Run from your project root or home directory — whichever matches your agent's skill discovery path.
+Run from your project root or home directory — whichever matches your agent's skill discovery path.
 
 See [skills.sh/docs](https://skills.sh/docs) for CLI options.
 
